@@ -21,7 +21,7 @@ jobs:
       - name: 🔧 设置 Node.js 环境
         uses: actions/setup-node@v4
         with:
-          node-version: '18'  # 选择 Node.js 版本
+          node-version: '16.8.0'  # 选择 Node.js 版本
           cache: 'npm'
 
       - name: 📦 安装依赖
